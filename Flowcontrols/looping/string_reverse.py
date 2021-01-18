@@ -1,4 +1,4 @@
-str="luminar" #input("enter string")
+str=input("enetr string")
 #print(len(str))
 length=len(str)-1 #6
 reverse=""

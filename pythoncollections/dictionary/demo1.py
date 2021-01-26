@@ -1,5 +1,5 @@
 this
-a demo
+a demo demo
 test file
-test
-test
+test file test
+test file

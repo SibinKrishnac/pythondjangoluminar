@@ -19,5 +19,6 @@ lst=[
 from functools import reduce
 highestpnt=list(filter(lambda teams:teams["pts"]==reduce(lambda p1,p2:p1 if p1>p2 else p2,list(map(lambda team:team["pts"],lst))),lst))
 print("highest point=",highestpnt)
+
 lowestpoint=list(filter(lambda teams:teams["pts"]==reduce(lambda p1,p2:p1 if p1<p2 else p2,list(map(lambda team:team["pts"],lst))),lst))
 print("lowest point=",lowestpoint)
